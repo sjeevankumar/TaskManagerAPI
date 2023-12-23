@@ -1,0 +1,20 @@
+{
+  "name": "taskmanagerapi",
+  "version": "1.0.0",
+  "description": "A Task Manager API is a backend system that allows users to manage tasks and to-do lists. ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "author": "Jeevan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
